@@ -1,0 +1,373 @@
+
+body {
+  -webkit-overflow-scrolling: touch;
+  background: rgb(173,140,101);
+  background: linear-gradient(180deg, rgba(173,140,101,1) 16%, rgba(255,187,154,1) 100%);
+  font-family: 'Raleway',sans-serif;
+  font-size: 17px;
+  color: black;
+}
+html {
+  scroll-behavior: smooth;
+}
+h3 {
+  margin-top: 10px;
+  text-align: center;
+  justify-content: center;
+  font-size: 35px;
+  color: black ;
+}
+.parallax {
+  /* The image used */
+  background-image: url("images/vuefaçade.jpeg");
+
+  /* Set a specific height */
+  height: 100px;
+  width: 100%;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  /* Create the parallax scrolling effect */
+  background-color: rgba(255,255,255,0.4);
+  background-blend-mode: lighten;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.logo {
+  text-decoration: none;
+  margin-left: 5px;
+  padding-bottom:50px;
+  height: 125px;
+  object-fit: cover;
+  z-index: 10;
+}
+
+.navbar {
+  display: flex;
+  justify-content:space-between;
+  align-items:center;
+  font-family: 'Raleway',sans-serif, 300;
+  box-shadow: 0px 2px 10px grey;
+  height: 90px;
+  background: rgb(255,187,154);
+  background: radial-gradient(circle, rgba(255,187,154,1) 0%, rgba(127,200,100,1) 100%);
+  margin-bottom: 20px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 30;
+}
+.sizebutt {
+  width: 10vw;
+  height: 10vh;
+  justify-content: center;
+}
+.testhomepage {
+ margin-top: 15vh;
+}
+.img-carousel {
+  height: 60vh;
+  object-fit: cover;
+  padding-bottom: 20px;
+  z-index: 1;
+}
+.imagetaille {
+  height: 30vh;
+  object-fit: contain;
+  padding-top: 10px;
+}
+.img-fit {
+  object-fit: cover;
+}
+.img-height {
+  height: 40vh;
+}
+.cardmarg {
+  margin-top: 20px;
+}
+.ptextsetting {
+  text-align: justify;
+  margin-right: 20px; 
+}
+.contain-nosvaleurs {
+  display: flex;!important 
+  justify-content: space-between;
+  align-items: center;
+}
+
+.contactframe {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: white;
+  margin-top: 5px;
+  margin-bottom: 20px;
+  flex-wrap: wrap; 
+}
+
+.zoom:hover {
+  transform: scale(1.25); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+.contactframe-left {
+  font-size: 25px;
+  margin-bottom: 10px;   
+}
+
+.contactframe-right {
+  margin-bottom: 10px;  
+}
+
+.iconesframe {
+  margin-right: 10px;
+  display: flex;
+  justify-content: space-around;
+}
+.fab {
+  padding: 20px;
+  padding-right: 10px;
+  padding-left: 0px;
+  font-size: 50px;
+  color: #7fc864;
+}
+.fab:hover {
+  color: #ad8c65;
+}
+
+.img_carouselactu {
+  height: 70vh;
+  object-fit: cover;
+  opacity: 1;
+}
+
+.carousel-caption {
+  color:#404040;
+}
+.img_carouselproduit {
+  height: 50vh;
+  object-fit: cover;
+  opacity: 0.4;
+}
+.img_carouselproduit:hover {
+  opacity: 1;
+  filter: alpha(opacity=100);
+}
+.form {
+  margin-top: 20px;
+}
+.link {
+  text-decoration: none;
+  margin: 20px;
+  padding: 10px;
+  background: #ad8c65;
+  color: white;
+  font-size: 14px;
+  font-family: Arial;
+  border-radius: 4px;
+}
+.link:hover {
+  background-color: white;
+  text-decoration: none;
+  color: #7fc864;
+  font-weight: bold;
+}
+© 2019 GitHub, Inc.
+
+.footer {
+display: table-row;
+justify-content: center;
+align-content : center;
+width: 100%;
+}
+.sizecontainer {
+  height: 20px;
+}
+.socialsetup {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+.site-footer {
+  background: white;
+  display: flex;
+  padding:20px 0 20px;
+  font-size:20px;
+  font-family:'Raleway', sans-serif;
+  line-height:24px;
+  color:#737373;
+  width: 100%;
+}
+.site-footer hr {
+  border-top-color:#bbb;
+  opacity:0.5
+}
+.site-footer hr.small
+{
+  margin:20px 0;
+}
+.site-footer h6
+{
+  color:#7fc864;
+  font-size:35px;
+  text-transform:uppercase;
+  margin-top:5px;
+  letter-spacing:2px;
+}
+.site-footer a
+{
+  color:#737373;
+}
+.site-footer a:hover
+{
+  color:#7fc864;
+  font-weight: bold;
+  text-decoration:none;
+}
+.footer-links
+{
+  padding-left:0;
+  list-style:none;
+}
+.footer-links li
+{
+  display:block;
+}
+.footer-links a
+{
+  color:#737373;
+}
+.footer-links a:active,.footer-links a:focus,.footer-links a:hover
+{
+  color:#7fc864;
+  text-decoration:none;
+}
+.footer-links.inline li
+{
+  display:inline-block;
+}
+.site-footer .social-icons
+{
+  text-align:left;
+}
+.site-footer .social-icons a
+{
+  width:80px;
+  height:80px;
+  line-height:80px;
+  margin-left:6px;
+  margin-right:0;
+  border-radius:100%;
+  background-color:#33353d;
+}
+.copyright-text
+{
+  margin:0;
+}
+.copyright-text: hover {
+  color:white;
+  text-decoration: none;
+}
+@media (max-width:991px)
+{
+.site-footer [class=col-] {
+margin-bottom:30px;
+}
+@media (max-width:767px)
+{
+.site-footer
+{
+  padding-bottom:0;
+}
+.site-footer .copyright-text,.site-footer .social-icons
+{
+  text-align:center;
+}
+.social-icons
+{
+  padding-left:0;
+  margin-bottom:0;
+  list-style:none;
+  color:#7fc864;
+  object-fit: cover;
+}
+.social-icons li
+{
+  display:inline-block;
+  align-items: center;
+  margin-bottom:1px
+  color:#7fc864;
+}
+.social-icons li.title
+{
+  margin-right:15px;
+  text-transform:uppercase;
+  color:#96a2b2;
+  font-weight:700;
+  font-size:13px;
+  display: flex;
+  align-items: center;
+}
+.social-icons a{
+  background-color:#eceeef;
+  color:#7fc864;
+  font-size:25px;
+  display:inline-block;
+  line-height:44px;
+  width:40px;
+  height:40px;
+  text-align:center;
+  margin-right:8px;
+  border-radius:100%;
+  -webkit-transition:all .2s linear;
+  -o-transition:all .2s linear;
+  transition:all .2s linear;
+}
+.social-icons a:active,.social-icons a:focus,.social-icons a:hover
+{
+  color:#7fc864;
+  background-color: white;
+}
+.social-icons.size-sm a
+{
+  line-height:34px;
+  height:34px;
+  width:34px;
+  font-size:14px;
+  color: #7fc864;
+}
+.social-icons a.facebook:hover
+{
+  background-color: pink;
+  color: #7fc864;
+}
+.social-icons a.twitter:hover {
+  background-color:pink;
+  color:#7fc864;
+  height:20px;
+  width:20x;
+}
+.social-icons a.instagram:hover {
+  background-color:pink;
+  color:#7fc864;
+}  
+@media (max-width:767px)
+{
+.social-icons li.title {
+  display:block;
+  margin-right:0;
+  font-weight:600;
+}
+.newslettersetup {
+  font-family: 'Raleway',sans-serif;
+  display: flex;
+  justify-content:space-around;
+  align-items: right;
+}
